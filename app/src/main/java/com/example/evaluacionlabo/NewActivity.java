@@ -44,21 +44,21 @@ public class NewActivity extends AppCompatActivity {
         String producto1 = bundle.getString(AppConstants.text_cont1);
         pro1.setText(producto1);
         String producto2 = bundle.getString(AppConstants.text_cont2);
-        pro1.setText(producto2;
+        pro2.setText(producto2);
         String producto3 = bundle.getString(AppConstants.text_cont3);
-        pro1.setText(producto3);
+        pro3.setText(producto3);
         String producto4 = bundle.getString(AppConstants.text_cont4);
-        pro1.setText(producto4);
+        pro4.setText(producto4);
         String producto5 = bundle.getString(AppConstants.text_cont5);
-        pro1.setText(producto5);
+        pro5.setText(producto5);
         String producto6 = bundle.getString(AppConstants.text_cont6);
-        pro1.setText(producto6);
+        pro6.setText(producto6);
         String producto7 = bundle.getString(AppConstants.text_cont7);
-        pro1.setText(producto7);
+        pro7.setText(producto7);
         String producto8 = bundle.getString(AppConstants.text_cont8);
-        pro1.setText(producto8);
+        pro8.setText(producto8);
         String producto9 = bundle.getString(AppConstants.text_cont9);
-        pro1.setText(producto9);
+        pro9.setText(producto9);
 
         String conjunto_datos = "Usuario: " + usuariomostrado + " Email: " + emailmostrado + " Productos en total: " + productosmostrados
                 +" Producto1: " + producto1
