@@ -17,5 +17,139 @@
         android:layout_gravity="center"
         />
 
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:rowCount="3"
+        android:columnCount="3">
+
+        <Button
+            android:id="@+id/boton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:background="#f44"
+            android:text="Producto1 #"
+            android:textColor="#fff"
+            />
+
+
+        <Button
+            android:id="@+id/boton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:background="#f44"
+            android:text="Producto2 #"
+            android:textColor="#fff"
+            />
+
+        <Button
+            android:id="@+id/boton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:background="#f44"
+            android:text="Producto3 #"
+            android:textColor="#fff"
+            />
+
+        <Button
+            android:id="@+id/boton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:background="#f44"
+            android:text="Producto4 #"
+            android:textColor="#fff"
+            />
+
+        <Button
+            android:id="@+id/boton5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:background="#f44"
+            android:text="Producto5 #"
+            android:textColor="#fff"
+            />
+
+        <Button
+            android:id="@+id/boton6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:background="#f44"
+            android:text="Producto6 #"
+            android:textColor="#fff"
+            />
+
+        <Button
+            android:id="@+id/boton7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:background="#f44"
+            android:text="Producto7 #"
+            android:textColor="#fff"
+            />
+
+        <Button
+            android:id="@+id/boton8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:background="#f44"
+            android:text="Producto8 #"
+            android:textColor="#fff"
+            />
+
+        <Button
+            android:id="@+id/boton9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:background="#f44"
+            android:text="Producto9 #"
+            android:textColor="#fff"
+            />
+
+    </GridLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Usuario: "
+        android:textColor="#000"
+        />
+
+    <EditText
+         android:id="@+id/ingreso_usuario"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:hint="Usuario"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email: "
+        android:textColor="#000"
+        />
+
+
+    <EditText
+        android:id="@+id/ingreso_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"/>
+
+    <Button
+        android:id="@+id/boton_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="Enviar"
+        android:layout_gravity="center"
+        />
 
 </LinearLayout>
