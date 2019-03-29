@@ -45,50 +45,43 @@ public class MainActivity extends AppCompatActivity {
 
         boton_cont1.setOnClickListener(v -> {
             cont1 = cont1 +1;
-            cont_total = cont_total + cont1;
         });
 
         boton_cont2.setOnClickListener(v -> {
             cont2 = cont2 +1;
-            cont_total = cont_total + cont2;
         });
 
         boton_cont3.setOnClickListener(v -> {
             cont3 = cont3 +1;
-            cont_total = cont_total + cont3;
         });
 
         boton_cont4.setOnClickListener(v -> {
             cont4 = cont4 +1;
-            cont_total = cont_total + cont4;
         });
 
         boton_cont5.setOnClickListener(v -> {
             cont5 = cont5 +1;
-            cont_total = cont_total + cont5;
         });
 
         boton_cont6.setOnClickListener(v -> {
             cont6 = cont6 +1;
-            cont_total = cont_total + cont6;
         });
 
         boton_cont7.setOnClickListener(v -> {
             cont7 = cont7 +1;
-            cont_total = cont_total + cont7;
         });
 
         boton_cont8.setOnClickListener(v -> {
             cont8 = cont8 +1;
-            cont_total = cont_total + cont8;
         });
 
         boton_cont9.setOnClickListener(v -> {
             cont9 = cont9 +1;
-            cont_total = cont_total + cont9;
+
         });
 
         boton_enviar.setOnClickListener(v->{
+            cont_total = cont1+cont2+cont3+cont4+cont5+cont6+cont7+cont8+cont9;
             Intent mIntent = new Intent(MainActivity.this, NewActivity.class);
             mIntent.putExtra(AppConstants.TEXT_KEY1, info_usuario.getText().toString());
             mIntent.putExtra(AppConstants.TEXT_KEY2, info_email.getText().toString());
