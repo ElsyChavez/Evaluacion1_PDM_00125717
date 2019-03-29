@@ -92,6 +92,16 @@ public class MainActivity extends AppCompatActivity {
             Intent mIntent = new Intent(MainActivity.this, NewActivity.class);
             mIntent.putExtra(AppConstants.TEXT_KEY1, info_usuario.getText().toString());
             mIntent.putExtra(AppConstants.TEXT_KEY2, info_email.getText().toString());
+            mIntent.putExtra(AppConstants.text_cont1, cont1+"");
+            mIntent.putExtra(AppConstants.text_cont2, cont2+"");
+            mIntent.putExtra(AppConstants.text_cont3, cont3+"");
+            mIntent.putExtra(AppConstants.text_cont4, cont4+"");
+            mIntent.putExtra(AppConstants.text_cont5, cont5+"");
+            mIntent.putExtra(AppConstants.text_cont6, cont6+"");
+            mIntent.putExtra(AppConstants.text_cont7, cont7+"");
+            mIntent.putExtra(AppConstants.text_cont8, cont8+"");
+            mIntent.putExtra(AppConstants.text_cont9, cont9+"");
+            mIntent.putExtra(AppConstants.text_contTotal, cont_total+"");
             startActivity(mIntent);
         });
 

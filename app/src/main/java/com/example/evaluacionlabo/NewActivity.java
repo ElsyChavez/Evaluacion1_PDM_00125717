@@ -38,8 +38,38 @@ public class NewActivity extends AppCompatActivity {
         text_usuario.setText(usuariomostrado);
         String emailmostrado = bundle.getString(AppConstants.TEXT_KEY2);
         text_email.setText(emailmostrado);
+        String productosmostrados = bundle.getString(AppConstants.text_contTotal);
+        text_total.setText(productosmostrados);
 
-        String conjunto_datos = "Usuario: " + usuariomostrado + "Email: " + emailmostrado;
+        String producto1 = bundle.getString(AppConstants.text_cont1);
+        pro1.setText(producto1);
+        String producto2 = bundle.getString(AppConstants.text_cont2);
+        pro1.setText(producto2;
+        String producto3 = bundle.getString(AppConstants.text_cont3);
+        pro1.setText(producto3);
+        String producto4 = bundle.getString(AppConstants.text_cont4);
+        pro1.setText(producto4);
+        String producto5 = bundle.getString(AppConstants.text_cont5);
+        pro1.setText(producto5);
+        String producto6 = bundle.getString(AppConstants.text_cont6);
+        pro1.setText(producto6);
+        String producto7 = bundle.getString(AppConstants.text_cont7);
+        pro1.setText(producto7);
+        String producto8 = bundle.getString(AppConstants.text_cont8);
+        pro1.setText(producto8);
+        String producto9 = bundle.getString(AppConstants.text_cont9);
+        pro1.setText(producto9);
+
+        String conjunto_datos = "Usuario: " + usuariomostrado + " Email: " + emailmostrado + " Productos en total: " + productosmostrados
+                +" Producto1: " + producto1
+                +" Producto2: " + producto2
+                +" Producto3: " + producto3
+                +" Producto4: " + producto4
+                +" Producto5: " + producto5
+                +" Producto6: " + producto6
+                +" Producto7: " + producto7
+                +" Producto8: " + producto8
+                +" Producto9: " + producto9;
 
         boton_share.setOnClickListener(v->{
             Intent mIntent=new Intent();
