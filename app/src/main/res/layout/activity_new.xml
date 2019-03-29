@@ -83,7 +83,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="#fff"
-            android:background="#f44"/>
+            android:background="#f44"
+           />
 
         <TextView
             android:id="@+id/espacio2"
@@ -104,7 +105,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="#fff"
-            android:background="#f44"/>
+            android:background="#f44"
+           />
 
         <TextView
             android:id="@+id/espacio5"
@@ -119,12 +121,14 @@
             android:layout_height="wrap_content"
             android:textColor="#fff"
             android:background="#f44"/>
+
         <TextView
             android:id="@+id/espacio7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="#fff"
-            android:background="#f44"/>
+            android:background="#f44"
+            />
 
         <TextView
             android:id="@+id/espacio8"
